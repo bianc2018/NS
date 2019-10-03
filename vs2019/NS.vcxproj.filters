@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ns">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ns\http">
+      <UniqueIdentifier>{ccf36da6-1a84-4943-aef5-4cfda7001c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ns\tcp">
+      <UniqueIdentifier>{faff5828-c85c-4729-8a21-abbb643079d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ns\util">
+      <UniqueIdentifier>{cfac8e5f-a235-4851-8637-f73fa760984b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\http\http_client.hpp">
+      <Filter>ns\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\http\http_object.hpp">
+      <Filter>ns\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\http\http_response.hpp">
+      <Filter>ns\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\http\http_request.hpp">
+      <Filter>ns\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\http\http_session.hpp">
+      <Filter>ns\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\http\httplib.h">
+      <Filter>ns\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tcp\connect.hpp">
+      <Filter>ns\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tcp\net.hpp">
+      <Filter>ns\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\async_io.hpp">
+      <Filter>ns\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\event.hpp">
+      <Filter>ns\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\logging.hpp">
+      <Filter>ns\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\ns_cache.hpp">
+      <Filter>ns\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\ns_error.hpp">
+      <Filter>ns\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\util.hpp">
+      <Filter>ns\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
